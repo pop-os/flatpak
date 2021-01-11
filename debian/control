@@ -36,7 +36,6 @@ Build-Depends:
  libglib2.0-dev (>= 2.44),
  libgpgme-dev (>= 1.1.8),
  libjson-glib-dev,
- libmalcontent-0-dev (>= 0.4.0),
  libostree-dev (>= 2019.2),
  libpolkit-agent-1-dev,
  libpolkit-gobject-1-dev,
@@ -87,7 +86,6 @@ Recommends:
  xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend,
 Suggests:
  avahi-daemon,
- malcontent-gui,
 Conflicts:
  xdg-app,
 Replaces:
