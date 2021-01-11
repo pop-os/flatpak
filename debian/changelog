@@ -1,3 +1,9 @@
+flatpak (1.8.4-2pop1) groovy; urgency=medium
+
+  * Pop!_OS backport
+
+ -- Ian Douglas Scott <idscott@system76.com>  Mon, 11 Jan 2021 09:36:01 -0800
+
 flatpak (1.8.4-2) unstable; urgency=medium
 
   * Mark patch for #972138 as having been applied upstream
