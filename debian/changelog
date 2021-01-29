@@ -1,8 +1,16 @@
-flatpak (1.8.4-2pop1) groovy; urgency=medium
+flatpak (1.8.5-1pop1) groovy; urgency=medium
 
   * Pop!_OS backport
 
- -- Ian Douglas Scott <idscott@system76.com>  Mon, 11 Jan 2021 09:36:01 -0800
+ -- Ian Douglas Scott <idscott@system76.com>  Thu, 28 Jan 2021 14:55:35 -0800
+
+flatpak (1.8.5-1) unstable; urgency=high
+
+  * New upstream release fixing a sandbox escape vulnerability
+    (GHSA-4ppf-fxf6-vxg2)
+  * Mark patch for #975710 as having been applied upstream
+
+ -- Simon McVittie <smcv@debian.org>  Thu, 14 Jan 2021 09:34:09 +0000
 
 flatpak (1.8.4-2) unstable; urgency=medium
 
