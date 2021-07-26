@@ -31,12 +31,11 @@ Build-Depends:
  libdw-dev,
  libelf-dev,
  libfuse-dev (>= 2.9.2),
- libgdk-pixbuf-2.0-dev | libgdk-pixbuf2.0-dev,
+ libgdk-pixbuf2.0-dev,
  libgirepository1.0-dev,
  libglib2.0-dev (>= 2.44),
  libgpgme-dev (>= 1.1.8),
  libjson-glib-dev,
- libmalcontent-0-dev (>= 0.4.0),
  libostree-dev (>= 2020.8),
  libpolkit-agent-1-dev,
  libpolkit-gobject-1-dev,
@@ -67,7 +66,7 @@ Vcs-Browser: https://salsa.debian.org/debian/flatpak
 Rules-Requires-Root: no
 
 Package: flatpak
-Architecture: linux-any
+Architecture: amd64
 Depends:
  adduser,
  bubblewrap (>= 0.4.0),
@@ -87,7 +86,6 @@ Recommends:
  xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend,
 Suggests:
  avahi-daemon,
- malcontent-gui,
 Conflicts:
  xdg-app,
 Replaces:
@@ -111,7 +109,7 @@ Description: Application deployment framework for desktop apps
  limited access to resources outside the sandbox.
 
 Package: flatpak-tests
-Architecture: linux-any
+Architecture: amd64
 Section: misc
 Depends:
  attr,
@@ -137,7 +135,7 @@ Description: Application deployment framework for desktop apps (tests)
  This package contains automated tests.
 
 Package: gir1.2-flatpak-1.0
-Architecture: linux-any
+Architecture: amd64
 Multi-Arch: same
 Section: introspection
 Depends:
@@ -151,7 +149,7 @@ Description: Application deployment framework for desktop apps (introspection)
  generate dynamic bindings for libflatpak0.
 
 Package: libflatpak-dev
-Architecture: linux-any
+Architecture: amd64
 Multi-Arch: same
 Section: libdevel
 Depends:
@@ -195,7 +193,7 @@ Description: Application deployment framework for desktop apps (documentation)
  This package contains reference documentation for libflatpak0.
 
 Package: libflatpak0
-Architecture: linux-any
+Architecture: amd64
 Section: libs
 Depends:
  bubblewrap (>= 0.4.0),
