@@ -1,3 +1,9 @@
+flatpak (1.16.6-1pop1) noble; urgency=medium
+
+  * Backport from Debian 1.16.6-1
+
+ -- Michael Murphy <michael@mmurphy.dev>  Fri, 10 Apr 2026 21:16:16 +0200
+
 flatpak (1.16.6-1) unstable; urgency=high
 
   * New upstream stable release
