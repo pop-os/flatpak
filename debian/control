@@ -1,9 +1,8 @@
 Source: flatpak
 Section: admin
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Maintainer: System76 <info@system76.com>
 Uploaders:
- Matthias Klumpp <mak@debian.org>,
- Simon McVittie <smcv@debian.org>,
+ Michael Murphy <michael@mmurphy.dev>
 # We need polkitd, socat, etc. if !nocheck || !noinsttest
 Build-Depends:
  debhelper (>= 13.11.6~),
